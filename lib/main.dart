@@ -8,10 +8,11 @@ void main() {
     const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: GradientContainer(
-            Color.fromARGB(255, 255, 124, 1),
-            Color.fromARGB(255, 242, 0, 77),
-        ),
+        body: GradientContainer.purple(),
+        // body: GradientContainer(
+        //     Color.fromARGB(255, 255, 124, 1),
+        //     Color.fromARGB(255, 242, 0, 77),
+        // ),
         // text: StyledText(),
       ),
     ),
